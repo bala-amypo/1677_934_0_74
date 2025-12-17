@@ -23,7 +23,7 @@ public Student insertStudent(Student st) {
 @Override
 public List<Student> getAllStudents() {
     return strepo.findAll();
-}
+}   
 
 @Override
 public Optional<Student> getOneStudent(Long id) {
