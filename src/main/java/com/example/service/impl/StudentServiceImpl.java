@@ -34,4 +34,4 @@ public Optional<Student> getOneStudent(Long id) {
 public void deleteStudent(Long id) {
     strepo.deleteById(id);
 }
-}
+}   
