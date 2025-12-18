@@ -1,4 +1,4 @@
-/*package com.example.demo.controller;
+package com.example.demo.controller;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +18,6 @@ import com.example.demo.service.StudentService;
 @RestController
 public class StudentController {
 
-text
 @Autowired  
 StudentService studentService;  
 
@@ -57,4 +56,4 @@ public String delete(@PathVariable Long id){
     }  
     return "Id not found";  
 }  
-}*/
+}
